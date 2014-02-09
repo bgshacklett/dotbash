@@ -1,5 +1,6 @@
 export GOPATH=$HOME/Dropbox/go
 export PATH=/usr/local/git/bin:$PATH
+export PATH=$PATH:$HOME/bin
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/Applications/dart/dart-sdk/bin
 
