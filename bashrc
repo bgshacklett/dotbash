@@ -7,3 +7,8 @@ export PATH=$PATH:/Applications/dart/dart-sdk/bin
 source ~/.bash/git/contrib/completion/git-completion.bash
 
 alias ls="ls -G"
+
+# Allow for local settings that aren't part of the git-managed config.
+if [[ -r ~/.bashrc_local ]]; then
+    . ~/.bashrc_local
+fi
